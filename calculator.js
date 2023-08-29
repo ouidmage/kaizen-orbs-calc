@@ -47,18 +47,6 @@ function calculate() {
 
     if (addValue > 0) {
       for (let i = baseValue; i <= totalOrbs - 1; i++) {
-        console.log(
-          "BEFORE:\n" +
-            "Start: " +
-            start +
-            "\n" +
-            "Materials Required: " +
-            materialsRequired +
-            "\n" +
-            "i: " +
-            i +
-            "\n"
-        );
         if (0 <= start && start < 4) {
           materialsRequired += 1;
           start += 1;
@@ -75,14 +63,6 @@ function calculate() {
           materialsRequired += 5;
           start += 1;
         }
-        console.log(
-          "AFTER:\n" +
-            "Start: " +
-            start +
-            "\n" +
-            "Materials Required: " +
-            materialsRequired
-        );
       }
     }
 
