@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KaizenMS Boss Orb Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>KaizenMS Boss Orb Calculator</h1>
+    <div class="instructions">
+      <div>First Input: <span>Current Orbs Used</span></div>
+      <div>Second Input: <span>Amount of Orbs You Plan on Using</span></div>
+    </div>
+    <div class="main-container">
+      <div class="orb-list-container">
+        <div class="orb-container">
+          <label id="yakuza">
+            Yakuza <input type="number" id="yakuza-base" value="0"
+            min="0"/max="20">
+            <input type="number" id="yakuza-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="scarga">
+            Scarga
+            <input type="number" id="scarga-base" value="0" min="0" max="20" />
+            <input type="number" id="scarga-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="krexel">
+            Krexel
+            <input type="number" id="krexel-base" value="0" min="0" max="20" />
+            <input type="number" id="krexel-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="zakum">
+            Zakum
+            <input type="number" id="zakum-base" value="0" min="0" max="20" />
+            <input type="number" id="zakum-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="vonleon">
+            Von Leon
+            <input type="number" id="vonleon-base" value="0" min="0" max="20" />
+            <input type="number" id="vonleon-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="toad">
+            Toad
+            <input type="number" id="toad-base" value="0" min="0" max="20" />
+            <input type="number" id="toad-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="horntail">
+            Horntail
+            <input
+              type="number"
+              id="horntail-base"
+              value="0"
+              min="0"
+              max="20"
+            />
+            <input type="number" id="horntail-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <div class="orb-container">
+          <label id="pinkbean">
+            Pink Bean
+            <input
+              type="number"
+              id="pinkbean-base"
+              value="0"
+              min="0"
+              max="20"
+            />
+            <input type="number" id="pinkbean-add" value="0" min="0" max="20" />
+          </label>
+        </div>
+        <button onclick="calculate()">Calculate</button>
+      </div>
+
+      <div class="result-container">
+        <p id="result">Materials Required:</p>
+      </div>
+    </div>
+
+    <footer>Created by bishpls ♥</footer>
+
+    <script src="calculator.js"></script>
+  </body>
+</html>

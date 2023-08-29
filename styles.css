@@ -1,0 +1,58 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+input,
+button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+#result {
+  font-weight: bold;
+}
+
+.instructions {
+  margin-bottom: 25px;
+}
+
+.instructions span {
+  font-weight: bold;
+}
+
+.orb-container label input {
+  width: 50px;
+}
+
+.orb-container label {
+  width: 200px;
+}
+
+.main-container {
+  display: flex;
+}
+
+.result-container {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+  margin-left: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+}
